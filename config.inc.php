@@ -27,7 +27,7 @@ foreach ($cfg['Servers'] as $key => $server) {
   /* Authentication type */
   $cfg['Servers'][$key]['auth_type'] = 'config';
   /* Server parameters */
-  $cfg['Servers'][$key]['host'] = '192.168.10.1';
+  $cfg['Servers'][$key]['host'] = '192.168.64.100';
   $cfg['Servers'][$i]['connect_type'] = 'tcp';
   $cfg['Servers'][$i]['compress'] = false;
 }
